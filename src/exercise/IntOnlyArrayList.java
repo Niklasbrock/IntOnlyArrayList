@@ -31,6 +31,11 @@ public class IntOnlyArrayList {
             intArray[0] = value;
         }
     }
+
+//    Saetter index i array lig med value parameteren.
+    public void add(int index, int value){
+            intArray[index] = value;
+    }
 //    Gemmer array i en buffer.
 //    Laver et nyt array med en mindre plads i forhold til det gamle.
 //    Tilfojer de vaerdier som er mindre end index parameteren.
