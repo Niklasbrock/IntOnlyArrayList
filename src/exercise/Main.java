@@ -3,7 +3,7 @@ package exercise;
 public class Main {
 
     public static void main(String[] args) {
-        IntOnlyArrayList intArray = new IntOnlyArrayList();
+        GenArrayList<Integer> intArray = new GenArrayList<>();
         System.out.printf("\n%s\n","Tilføjer 6 int værdier til array, kalder toString og size");
 	    intArray.add(10);
 	    intArray.add(20);

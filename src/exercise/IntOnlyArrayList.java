@@ -22,7 +22,7 @@ public class IntOnlyArrayList {
     public void add(int value){
         int[] intArrayBuffer = intArray;
         intArray = new int[intArrayBuffer.length+1];
-        if (intArrayBuffer.length != 0){
+        if (intArrayBuffer.length != 0){ //ellers giver den out of bounds ved size()-1
             for (int i = 0; i < intArrayBuffer.length; i++){
                 intArray[i] = intArrayBuffer[i];
             }
