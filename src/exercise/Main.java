@@ -38,5 +38,9 @@ public class Main {
         intArray.add(42);
         System.out.println(intArray.toString());
         System.out.println(intArray.size());
+
+        GenArrayList<Hanne> hanneArray = new GenArrayList<Hanne>();
+        hanneArray.add(new Hanne());
+        System.out.println("Hanne Almighty Status: " + hanneArray.get(0).toString());
     }
 }
